@@ -7,20 +7,42 @@
  * File Description...: defines the JavaScript logic for handling image swaps and collapsing text on button clicks
  **********************************************************************************************************************/
 
+/***********************************************************************************************************************
+* Retrieves an element by a given CSS selector
+ *
+ * @params selector The CSS selector to use for retrieving a DOM element
+ *
+ * @returns {Element|null}
+* *********************************************************************************************************************/
 const getElement = selector => document.querySelector(selector);
 
-//cache DOM elements and their necessary attributes
+//cache main image display element and it's original src and alt attribute values
 const faqImage = getElement("#faq_image");
 const faqImageOrigSrc = faqImage.src;
 const faqImageOrigAlt = faqImage.alt;
 const h2s = document.querySelectorAll("#faqs h2")
 
-// click event handler
+/***********************************************************************************************************************
+ * Handles all image swap and text collapse logic for clicking of the h2 elements of the interface
+ *
+ * @params evt The event object defining the click event information
+ *
+ * @returns {void}
+ * *********************************************************************************************************************/
 const toggleVisibility = evt => {
-    const ct = evt.currentTarget;
-    let allClosed = false;
+    const ct = evt.currentTarget;   // the h2 element the user clicked on
+    let allClosed = false;             // defines whether all the h2 inner <p> text is currently hidden
 
+    // loop through every h2 element of the interface
     for (let h2 of h2s){
+        /*
+        * if the h2 element matches what the user clicked:
+        *   - if the h2's text is already being display
+        *   - then click is resulting in all h2's being hidden. Set boolean
+        *   - toggle the clicked h2's minus class and its sibling's open class so that it hides
+        *   - store the clicked h2's src and alt text to assign as the src and alt of the main image display
+        * Otherwise, ensure the h2 displays the + image and it's sibling isn't open
+        */
         if (h2 === ct) {
             if (h2.classList.contains("minus")){
                 allClosed = true;
@@ -37,14 +59,15 @@ const toggleVisibility = evt => {
             h2.nextElementSibling.classList.remove("open");
         }
     }
+    // if the user's click resulting in collapsing all h2 text, restore the main image display to the default image
     if (allClosed) {
         faqImage.setAttribute("src", faqImageOrigSrc);
         faqImage.setAttribute("alt", faqImageOrigAlt);
     }
-    evt.preventDefault();
+    evt.preventDefault(); //prevent the default browser handling for the click event
 }
 
-// establish event listeners
+// add the click event listener to all h2 elements when the DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
     for (h2 of h2s){
         h2.addEventListener("click", toggleVisibility);
