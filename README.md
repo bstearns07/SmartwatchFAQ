@@ -11,7 +11,7 @@ Ben Stearns
 
 ## 📑 Table of Contents
 - [📌 Summary](#-summary)
-- [Live Demo](#-live-demo)
+- [🚀 Live Demo](#-live-demo)
 - [✨ Features](#-features)
 - [🧰 Tech Stack](#-tech-stack)
 - [⚙️ How It Works](#-how-it-works)
