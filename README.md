@@ -41,7 +41,7 @@ This project showcases interactive image swapping, accordion functionality, and 
 - Single-answer visibility logic
 - Automatic default state restoration
 - Clean, modular DOM-based architecture
-
+- Tab order and accessibility control
 ---
 
 ## 🧰 Tech Stack
@@ -67,7 +67,7 @@ This project showcases interactive image swapping, accordion functionality, and 
 ## ⚙️ How It Works
 
 1. Open `index.html`
-2. Click on any FAQ question to reveal its answer
+2. Click on any FAQ question to reveal its answer. Alternatively, use Tab and press Enter/Spacebar works as well
 3. Selecting a question dynamically swaps the smartwatch image
 4. Only one answer can be displayed at a time
 5. Collapsing all answers restores the default image
@@ -89,10 +89,12 @@ This project showcases interactive image swapping, accordion functionality, and 
 
 ## 📘 What I Learned
 
-- Efficient DOM caching improves performance
+- You can improve app efficiency by caching DOM elements once on DOM load unless otherwise needed
 - Data attributes simplify dynamic content binding
-- Class toggling provides clean state management
-- Clear structure improves maintainability and scalability
+- Class toggling provides clean state management when it comes to features like accordion-style behavior
+- Tab order is a great way to improve your application's accessibility
+- How to create README tables
+- How to host applications using GitHub Pages
 
 ---
 

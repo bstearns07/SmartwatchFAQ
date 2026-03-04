@@ -70,5 +70,12 @@ const toggleVisibility = evt => {
 document.addEventListener("DOMContentLoaded", () => {
     for (h2 of h2s){
         h2.addEventListener("click", toggleVisibility);
+
+        //add the h2 to natural tab order and toggle its visibility when enter or space is pressed while having focus
+        h2.setAttribute("tabindex", "0");
+        h2.addEventListener("keydown", event => {
+            if (event.key === "Enter" || event.key === " ")
+                toggleVisibility(event);
+        })
     }
 })
