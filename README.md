@@ -11,6 +11,7 @@ Ben Stearns
 
 ## 📑 Table of Contents
 - [📌 Summary](#-summary)
+- [Live Demo](#-live-demo)
 - [✨ Features](#-features)
 - [🧰 Tech Stack](#-tech-stack)
 - [⚙️ How It Works](#-how-it-works)
@@ -25,6 +26,11 @@ Ben Stearns
 The **Smartwatch FAQ** application demonstrates how JavaScript can dynamically control UI behavior using DOM manipulation and class-based state management.
 
 This project showcases interactive image swapping, accordion functionality, and clean client-side logic — all built with vanilla JavaScript.
+
+---
+
+## 🚀 Live Demo
+[Click Here to Open the Smartwatch FAQ App](https://bstearns07.github.io/SmartwatchFAQ/)
 
 ---
 
