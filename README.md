@@ -41,7 +41,8 @@ This project showcases interactive image swapping, accordion functionality, and 
 - Single-answer visibility logic
 - Automatic default state restoration
 - Clean, modular DOM-based architecture
-- Tab order and accessibility control
+- Accessibility improvements for Tab order and Enter/Space key support for elements that normally do not receive focus
+- CSS responsive design using media query and flexible layout principles
 ---
 
 ## 🧰 Tech Stack

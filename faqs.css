@@ -11,11 +11,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     margin: 1em auto;
-    width: 500px;
+    max-width: 500px;
+    width: 90%;
     padding: 0 2em 1em;
     border: 1px solid black;
     border-radius: 1em;
     box-shadow: gray 1px 1px 10px;
+}
+body:hover {
+    box-shadow: gray 1px 1px 15px;
 }
 h1 {
     font-size: 150%;
@@ -50,7 +54,29 @@ p {
     padding-left: 2em;
 }
 #faq_image {
-    width: auto;
-    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 1em;
+    transition: transform 0.2s ease-in-out;
+}
+#faq_image:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 600px) {
+    body {
+        padding: 1em;
+        border-radius: 0.5em;
+    }
+    h1 {
+        font-size: 130%;
+        text-align: center;
+    }
+    h2 {
+        font-size: 110%;
+        padding-left: 1.8em;
+    }
+    p {
+        padding-left: 1em;
+    }
 }
