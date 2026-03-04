@@ -110,6 +110,14 @@ This project showcases interactive image swapping, accordion functionality, and 
 ### ❤️ Heartrate Feature Selected
 ![Heartrate Feature](assets/heartrate.png)
 
+### 📱 Phone Necessary Selected
+![Phone Necessary Selected](assets/phone.png)
+
+### 📞 Calling Feature Selected
+![Phone Necessary Selected](assets/call.png)
+
+### 🩺 Blood Pressure Feature Selected
+![Phone Necessary Selected](assets/bp.png)
 ---
 
 ⬆️ [Back to Top](#-smartwatch-faq)
