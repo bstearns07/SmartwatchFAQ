@@ -1,46 +1,106 @@
-# Smartwatch FAQ
+# ⌚ Smartwatch FAQ
 ![smartwatch-faq](assets/intro.png)
 
-## Author
-[@bstearns07](https://github.com/bstearns07) Ben Stearns
+---
 
-## Table of Contents
-- [Author](#Author)
-- [Summary](#summary)
-- [How Does it Work](#how-does-it-work)
-- [Topics Covered](#topics-covered)
-- [Screenshots](#screenshots)
-    - [Default Image](#default-image)
-    - [Waterproof Displayed](#waterproof-displayed)
-    - [Heartrate Displayed](#heartrate-displayed)
+## 👤 Author
+[@bstearns07](https://github.com/bstearns07)  
+Ben Stearns
 
-## Summary
-### Welcome to the SmartwatchFAQ App!
-This web application shows you how JavaScript can take care of all you image-swapping and text-hiding needs!
-The power of JavaScript can level up the game on all your applications and make them infinitely more dynamic.
-Just give this program a try and you'll see what I mean.
+---
 
-## How Does it Work
-You might have figured it out on your own, but here's the lowdown:
-- Click on any of the FAQ questions that are listed and see the answer
-- Clicking a question doesn't just reveal the answer, but hides other answers and displays a more appropriate image.
+## 📑 Table of Contents
+- [📌 Summary](#-summary)
+- [✨ Features](#-features)
+- [🧰 Tech Stack](#-tech-stack)
+- [⚙️ How It Works](#-how-it-works)
+- [🧠 Topics Covered](#-topics-covered)
+- [📘 What I Learned](#-what-i-learned)
+- [🖼 Screenshots](#-screenshots)
 
-And that's all folks!
+---
 
-## Topics Covered
-- DOM manipulation through caching, attribute manipulation, and toggling or removing classes as needed
-- Image swaps accomplished by using JavaScript to toggle a class named "minus" on or off
-- Hiding inner text by displaying the element as a block only if JavaScript hasn't assigned a class = "open"
+## 📌 Summary
 
-## Screenshots
+The **Smartwatch FAQ** application demonstrates how JavaScript can dynamically control UI behavior using DOM manipulation and class-based state management.
 
-### Default Image
-![Valid Entry](assets/intro.png)
+This project showcases interactive image swapping, accordion functionality, and clean client-side logic — all built with vanilla JavaScript.
 
-### Waterproof Displayed
-![Valid Entry](assets/waterproof.png)
+---
 
-### Heartrate Displayed
-![Valid Entry](assets/heartrate.png)
+## ✨ Features
 
-[Back to Top](#smartwatch-faq)
+- Interactive FAQ accordion behavior
+- Dynamic image swapping
+- Single-answer visibility logic
+- Automatic default state restoration
+- Clean, modular DOM-based architecture
+
+---
+
+## 🧰 Tech Stack
+
+### 🖥 Frontend
+- HTML5 (Semantic Markup)
+- CSS3 (Layout & Styling)
+- Vanilla JavaScript (ES6+)
+
+### 🧩 Core Concepts
+- DOM Manipulation
+- Event Handling
+- ClassList API
+- Data Attribute Binding
+- Conditional Rendering
+
+### 🛠 Development Tools
+- Git & GitHub
+- WebStorm
+
+---
+
+## ⚙️ How It Works
+
+1. Open `index.html`
+2. Click on any FAQ question to reveal its answer
+3. Selecting a question dynamically swaps the smartwatch image
+4. Only one answer can be displayed at a time
+5. Collapsing all answers restores the default image
+
+---
+
+## 🧠 Topics Covered
+
+| Category | Concept | Methods / Properties |
+|----------|----------|----------------------|
+| DOM Manipulation | Caching elements | `document.querySelector()`<br>`document.querySelectorAll()` |
+| DOM Manipulation | Attribute access | `element.attributeName` |
+| DOM Manipulation | Attribute management | `element.getAttribute()`<br>`element.setAttribute()` |
+| DOM Manipulation | Class removal | `element.classList.remove()` |
+| DOM Manipulation | Adjacent element traversal | `element.nextElementSibling` |
+| UI Behavior | Image swapping / visibility control | `element.classList.toggle()` |
+
+---
+
+## 📘 What I Learned
+
+- Efficient DOM caching improves performance
+- Data attributes simplify dynamic content binding
+- Class toggling provides clean state management
+- Clear structure improves maintainability and scalability
+
+---
+
+## 🖼 Screenshots
+
+### 🖼 Default State
+![Default State](assets/intro.png)
+
+### 💧 Waterproof Feature Selected
+![Waterproof Feature](assets/waterproof.png)
+
+### ❤️ Heartrate Feature Selected
+![Heartrate Feature](assets/heartrate.png)
+
+---
+
+⬆️ [Back to Top](#-smartwatch-faq)

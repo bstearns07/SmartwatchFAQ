@@ -37,11 +37,10 @@ const toggleVisibility = evt => {
     for (let h2 of h2s){
         /*
         * if the h2 element matches what the user clicked:
-        *   - if the h2's text is already being display
-        *   - then click is resulting in all h2's being hidden. Set boolean
-        *   - toggle the clicked h2's minus class and its sibling's open class so that it hides
-        *   - store the clicked h2's src and alt text to assign as the src and alt of the main image display
-        * Otherwise, ensure the h2 displays the + image and it's sibling isn't open
+        *   - all content must be closed if the class clicked contains "minus". set boolean appropriately
+        *   - toggle the clicked h2's minus class and its sibling's open class so that the sibling hides
+        *   - update the image on display by coping the clicked h2's src and alt text to the main display
+        * Otherwise, ensure the h2 displays the + image, and it's sibling isn't open
         */
         if (h2 === ct) {
             if (h2.classList.contains("minus")){
