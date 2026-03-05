@@ -17,7 +17,7 @@ Ben Stearns - [@bstearns07](https://github.com/bstearns07)
 - [🚀 Live Demo](#-live-demo)
 - [✨ Features](#-features)
 - [🧰 Tech Stack](#-tech-stack)
-- [⚙️ How It Works](#-how-it-works)
+- [⚙️ How It Works](#hiw)
 - [🧠 Topics Covered](#-topics-covered)
 - [📘 What I Learned](#-what-i-learned)
 - [🖼 Screenshots](#-screenshots)
@@ -68,8 +68,8 @@ This project showcases interactive image swapping, accordion functionality, and 
 - WebStorm
 
 ---
-
-## ⚙️ How It Works
+<a id="hiw"></a>
+## ⚙️ How It Works 
 
 1. Open `index.html`
 2. Click on any FAQ question to reveal its answer. Alternatively, use TAB to select a question and press ENTER/SPACEBAR to reveal the answer
