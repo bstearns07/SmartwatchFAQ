@@ -1,11 +1,14 @@
 # ⌚ Smartwatch FAQ
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 ![smartwatch-faq](assets/intro.png)
 
 ---
 
 ## 👤 Author
-[@bstearns07](https://github.com/bstearns07)  
-Ben Stearns
+Ben Stearns - [@bstearns07](https://github.com/bstearns07)
 
 ---
 
@@ -30,7 +33,7 @@ This project showcases interactive image swapping, accordion functionality, and 
 ---
 
 ## 🚀 Live Demo
-[Click Here to Open the Smartwatch FAQ App](https://bstearns07.github.io/SmartwatchFAQ/)
+[🔗 Open the Smartwatch FAQ Demo ↗](https://bstearns07.github.io/SmartwatchFAQ/)
 
 ---
 
