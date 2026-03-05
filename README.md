@@ -68,7 +68,6 @@ This project showcases interactive image swapping, accordion functionality, and 
 - WebStorm
 
 ---
-<a id="hiw"></a>
 ## ⚙️ How It Works 
 
 1. Open `index.html`
