@@ -30,6 +30,8 @@ The **Smartwatch FAQ** application demonstrates how JavaScript can dynamically c
 
 This project showcases interactive image swapping, accordion functionality, and clean client-side logic — all built with vanilla JavaScript.
 
+For full program details, refer to [Program Requirements](./assets/ProgramInstructions.pdf) 
+
 ---
 
 ## 🚀 Live Demo
