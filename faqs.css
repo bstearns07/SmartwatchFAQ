@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     margin: 1em auto;
-    max-width: 500px;
+    max-width: 700px;
     width: 90%;
     padding: 0 2em 1em;
     border: 1px solid black;
@@ -23,6 +23,14 @@ body:hover {
 }
 h1 {
     font-size: 150%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    -webkit-background-clip: text; /* required for safari/chrome compatability*/
+    background-clip: text;
+    color: transparent;
 }
 h2 {
     font-size: 120%;
@@ -40,10 +48,21 @@ a {
 a:focus, a:hover {
     color: blue;
 }
-div {
+.main {
+    display: flex;
+    gap: 2rem;
+}
+.main-image {
+    flex: 1;
+}
+
+.main-content {
+    flex: 1;
+}
+.answer {
     display: none;
 }
-div.open {
+.answer.open {
     display: block;
 }
 li {

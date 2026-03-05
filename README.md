@@ -33,8 +33,8 @@ This project showcases interactive image swapping, accordion functionality, and 
 ---
 
 ## 🚀 Live Demo
-![Smartwatch FAQ Demo](assets/demo.gif)
-[🔗 Open the Smartwatch FAQ Demo ↗](https://bstearns07.github.io/SmartwatchFAQ/)
+![Smartwatch FAQ Demo](assets/demo.gif)<br>
+[🔗 Click Here to Open the Smartwatch FAQ Demo ↗](https://bstearns07.github.io/SmartwatchFAQ/)
 
 ---
 
