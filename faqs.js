@@ -3,7 +3,7 @@
  * Programmers........: Ben Stearns
  * Date...............: 3-3-26
  * GitHub Repo........: https://github.com/bstearns07/SmartwatchFAQ
- * Description........: a JavaScript web application simulating image swapping and collapsable elements
+ * Program Summary....: a JavaScript web application simulating image swapping and collapsable elements
  * File Description...: defines the JavaScript logic for handling image swaps and collapsing text on button clicks
  **********************************************************************************************************************/
 

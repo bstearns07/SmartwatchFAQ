@@ -2,7 +2,7 @@
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-MIT-green)<br>
 ![smartwatch-faq](assets/intro.png)
 
 ---
@@ -46,7 +46,7 @@ This project showcases interactive image swapping, accordion functionality, and 
 - Automatic default state restoration
 - Clean, modular DOM-based architecture
 - Accessibility improvements for Tab order and Enter/Space key support for elements that normally do not receive focus
-- CSS responsive design using media query and flexible layout principles
+- CSS responsive design using media queries and flexible layout principles
 ---
 
 ## 🧰 Tech Stack
@@ -72,7 +72,7 @@ This project showcases interactive image swapping, accordion functionality, and 
 ## ⚙️ How It Works
 
 1. Open `index.html`
-2. Click on any FAQ question to reveal its answer. Alternatively, use Tab and press Enter/Spacebar works as well
+2. Click on any FAQ question to reveal its answer. Alternatively, use TAB to select a question and press ENTER/SPACEBAR to reveal the answer
 3. Selecting a question dynamically swaps the smartwatch image
 4. Only one answer can be displayed at a time
 5. Collapsing all answers restores the default image
@@ -94,7 +94,7 @@ This project showcases interactive image swapping, accordion functionality, and 
 
 ## 📘 What I Learned
 
-- You can improve app efficiency by caching DOM elements once on DOM load unless otherwise needed
+- You can improve app efficiency by caching DOM elements once upon DOM load unless otherwise needed
 - Data attributes simplify dynamic content binding
 - Class toggling provides clean state management when it comes to features like accordion-style behavior
 - Tab order is a great way to improve your application's accessibility
