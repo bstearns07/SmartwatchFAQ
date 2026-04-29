@@ -3,24 +3,27 @@
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)<br>
-![smartwatch-faq](assets/intro.png)
 
 ---
 
 ## 👤 Author
 Ben Stearns - [@bstearns07](https://github.com/bstearns07)
 
+📅 Date: 3/5/2026
+
 ---
 
 ## 📑 Table of Contents
-- [📌 Summary](#-summary)
-- [🚀 Live Demo](#-live-demo)
-- [✨ Features](#-features)
-- [🧰 Tech Stack](#-tech-stack)
-- [⚙️ How It Works](#-how-it-works-)
-- [🧠 Topics Covered](#-topics-covered)
-- [📘 What I Learned](#-what-i-learned)
-- [🖼 Screenshots](#-screenshots)
+- 📌 [Summary](#-summary)
+- ⭐ [How It Works](#-how-it-works)
+- 🚀 [Live Demo](#-live-demo)
+- ✨ [Features](#-features)
+- 🧰 [Tech Stack](#-tech-stack)
+- 🔧 [Development Tools](#-development-tools)
+- 🧩 [Core Concepts](#-core-concepts)
+- 📝 [New Topics Covered](#-new-topics-covered)
+- 📘 [What I Learned](#-what-i-learned)
+- 🖼 [Screenshots](#-screenshots)
 
 ---
 
@@ -34,8 +37,19 @@ For full program details, refer to [Program Requirements](./assets/ProgramInstru
 
 ---
 
+## ⭐ How It Works 
+
+1. Open `index.html`
+2. Click on any FAQ question to reveal its answer. Alternatively, use TAB to select a question and press ENTER/SPACEBAR to reveal the answer
+3. Selecting a question dynamically swaps the smartwatch image
+4. Only one answer can be displayed at a time
+5. Collapsing all answers restores the default image
+
+---
+
 ## 🚀 Live Demo
-![Smartwatch FAQ Demo](assets/demo.gif)<br>
+![Smartwatch FAQ Demo](assets/demo.gif)
+
 [🔗 Click Here to Open the Smartwatch FAQ Demo ↗](https://bstearns07.github.io/SmartwatchFAQ/)
 
 ---
@@ -49,6 +63,7 @@ For full program details, refer to [Program Requirements](./assets/ProgramInstru
 - Clean, modular DOM-based architecture
 - Accessibility improvements for Tab order and Enter/Space key support for elements that normally do not receive focus
 - CSS responsive design using media queries and flexible layout principles
+  
 ---
 
 ## 🧰 Tech Stack
@@ -65,22 +80,15 @@ For full program details, refer to [Program Requirements](./assets/ProgramInstru
 - Data Attribute Binding
 - Conditional Rendering
 
-### 🛠 Development Tools
+---
+
+### 🔧 Development Tools
 - Git & GitHub
 - WebStorm
 
 ---
-## ⚙️ How It Works 
 
-1. Open `index.html`
-2. Click on any FAQ question to reveal its answer. Alternatively, use TAB to select a question and press ENTER/SPACEBAR to reveal the answer
-3. Selecting a question dynamically swaps the smartwatch image
-4. Only one answer can be displayed at a time
-5. Collapsing all answers restores the default image
-
----
-
-## 🧠 Topics Covered
+## 📝 New Topics Covered
 
 | Category | Concept | Methods / Properties |
 |----------|----------|----------------------|
