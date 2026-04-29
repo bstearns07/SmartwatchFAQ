@@ -48,9 +48,11 @@ For full program details, refer to [Program Requirements](./assets/ProgramInstru
 ---
 
 ## 🚀 Live Demo
-![Smartwatch FAQ Demo](assets/demo.gif)
+> ⬇️ **Click the link below to open the app in your browser and try it yourself!**⬇️
 
-[🔗 Click Here to Open the Smartwatch FAQ Demo ↗](https://bstearns07.github.io/SmartwatchFAQ/)
+👉 [![Open Demo](https://img.shields.io/badge/▶%20Open%20Live%20Demo-ff4b4b?style=for-the-badge)](https://bstearns07.github.io/SmartwatchFAQ/)
+
+![Smartwatch FAQ Demo](assets/demo.gif)
 
 ---
 
