@@ -75,7 +75,7 @@ For full program details, refer to [Program Requirements](./assets/ProgramInstru
 - CSS3 (Layout & Styling)
 - Vanilla JavaScript (ES6+)
 
-### 🧩 Core Concepts
+## 🧩 Core Concepts
 - DOM Manipulation
 - Event Handling
 - ClassList API
